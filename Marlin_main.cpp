@@ -1498,7 +1498,7 @@ void process_commands()
         }
       saved_feedrate = feedrate;
       saved_feedmultiply = feedmultiply;
-      feedmultiply = 100;
+      feedmultiply = 50;
 
       deploy_z_probe();
       calibrate_print_surface(z_probe_offset[Z_AXIS] +
